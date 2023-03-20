@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" dbusName="konsole" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+ <bookmark href="file:///home/tux/Projects/Elevasoft/Backend/speedfile-backend">
+  <title>speedfile-backend</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name=""/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/tux">
+  <title>tux</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="nvim"/>
+   </metadata>
+  </info>
+ </bookmark>
+</xbel>

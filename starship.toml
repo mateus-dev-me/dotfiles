@@ -1,0 +1,14 @@
+[python]
+format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+
+[nodejs]
+format = 'via [$symbol($version )]($style)'
+
+[lua]
+format = 'via [$symbol($version )]($style)'
+
+[rust]
+format = 'via [$symbol($version )]($style)'
+
+[golang]
+format = 'via [$symbol($version )]($style)'

@@ -1,0 +1,100 @@
+{
+    "languageserver": {
+        "python": {
+            "command": "python",
+            "args": [
+                "-m",
+                "pyls"
+            ],
+            "filetypes": [
+                "python"
+            ]
+        },
+        "go": {
+            "command": "gopls",
+            "rootPatterns": [
+                "go.mod",
+                ".vim/",
+                ".git/",
+                ".hg/"
+            ],
+            "filetypes": [
+                "go"
+            ],
+            "initializationOptions": {
+                "formatting": true,
+                "completeUnimported": true,
+                "staticcheck": true
+            }
+        },
+        "javascript": {
+            "command": "node",
+            "args": [
+                "~/.config/coc/extensions/node_modules/coc-tsserver/lib/server.js",
+                "--stdio"
+            ],
+            "filetypes": [
+                "javascript",
+                "javascriptreact",
+                "typescript",
+                "typescriptreact"
+            ],
+            "formatting": {
+                "provider": "black",
+                "blackPath": "~/.local/bin/black"
+            },
+            "analysis": {
+                "enabled": true,
+                "diagnostics": {
+                    "enable": true,
+                    "lintOnSave": true,
+                    "severity": {
+                        "UnusedImport": "warning"
+                    },
+                    "black": {
+                        "enabled": true,
+                        "lineLength": 79
+                    },
+                    "flake8": {
+                        "enabled": true,
+                        "maxLineLength": 79,
+                        "ignore": [
+                            "E501"
+                        ]
+                    }
+                }
+            },
+            "pythonPath": "/usr/bin/python",
+            "settings": {
+                "javascript": {
+                    "format": {
+                        "enable": true
+                    }
+                },
+                "typescript": {
+                    "format": {
+                        "enable": true
+                    }
+                }
+            }
+        },
+        "rust": {
+            "command": "rust-analyzer",
+            "filetypes": [
+                "rust"
+            ],
+            "initializationOptions": {
+                "inlayHints": {
+                    "typeHints": true,
+                    "parameterHints": true
+                }
+            }
+        },
+    "mypy": {
+            "command": "mypy",
+            "args": ["--ignore-missing-imports", "--", "%file"],
+            "filetypes": ["python"]
+      }
+    },
+    "snippets.ultisnips.pythonPrompt": false,
+}
