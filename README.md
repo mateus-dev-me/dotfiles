@@ -1,5 +1,7 @@
 # Dotfiles
 
+Configurações do meu ambiente de trabalho.
+
 ## Dependências
 - [xorg](https://wiki.archlinux.org/title/Xorg_(Portugu%C3%AAs))
 - [bspwm](https://wiki.archlinux.org/title/Bspwm)
