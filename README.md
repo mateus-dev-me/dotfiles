@@ -1,24 +1,33 @@
 # Dotfiles
----
 
 ## Dependências
-- `xorg`
-- `bspwm`
-- `sxhkd`
-- `picom`
-- `polybar`
-- `rofi`
-- `konsole`
-- `zsh`
-- `startship`
-- `mpd`
-- `ncmpcpp`
-- `neovim`
-- `packer`
+- [xorg](https://wiki.archlinux.org/title/Xorg_(Portugu%C3%AAs))
+- [bspwm](https://wiki.archlinux.org/title/Bspwm)
+- [sxhkd](https://wiki.archlinux.org/title/Sxhkd)
+- [picom](https://wiki.archlinux.org/title/Picom)
+- [polybar](https://wiki.archlinux.org/title/Polybar)
+- [rofi](https://wiki.archlinux.org/title/Rofi)
+- [konsole](https://wiki.archlinux.org/title/Konsole)
+- [zsh](https://wiki.archlinux.org/title/Zsh)
+- [starship](https://www.spacex.com/vehicles/starship/)
+- [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
+- [ncmpcpp](https://wiki.archlinux.org/title/Ncmpcpp)
+- [neovim](https://wiki.archlinux.org/title/Neovim)
+- [packer](https://github.com/wbthomason/packer.nvim)
 
+## Visualização :
+
+![desktop](docs/desktop.png)
+
+![desktop](docs/neovim-0.png)
+
+![desktop](docs/neovim-1.png)
+
+![desktop](docs/neovim-2.png)
+
+![bspwm visualização](docs/bspwm.png)
 
 ## Configuração
-___
 
 ### Xorg
 
