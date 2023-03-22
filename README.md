@@ -15,7 +15,7 @@
 - [neovim](https://wiki.archlinux.org/title/Neovim)
 - [packer](https://github.com/wbthomason/packer.nvim)
 
-## Visualização :
+## Visualização
 
 ![desktop](docs/desktop.png)
 
